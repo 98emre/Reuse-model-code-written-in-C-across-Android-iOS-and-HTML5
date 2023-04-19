@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WebAssembly Weather</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+      <!-- Huvudrubrik -->
+  <h1 style="text-align: center;">WebAssembly Weather No C</h1>
+
+      <!-- WeatherData-tabellen -->
+  <table id="weatherData">
+    <thead>
+      <tr>
+        <th>City</th>
+        <th>Temperature</th>
+        <th>Week Day</th>
+        <th>Load Data</th>
+        <th>Date</th>
+        <th>Prognos</th>
+      </tr>
+    </thead>
+    <tbody>
+    </tbody>
+  </table>
+
+  <script type="module">
+
+    // importerar dummy weather data från weaterData.js
+    import { dummyWeatherData } from './weatherData.js';
+
+    console.log("JS initialized");
+
+    // Hämta "weatherData" tabellens tbody-element
+    const weatherDataElement = document.getElementById("weatherData").getElementsByTagName("tbody")[0];
+
+      // Loopar igenom dummy data and skapar display weather objects
+    for (const data of dummyWeatherData) {
+        console.log("Creating weather object:", data.city, data.temp, data.weekDay, data.loadData,data.date,data.prognosImages);
+      
+        // Lägger till en rad i tabellen för varje väderobjekt
+        const row = weatherDataElement.insertRow();
+        const cityCell = row.insertCell(0);
+        const tempCell = row.insertCell(1);
+        const weekDayCell = row.insertCell(2);
+        const loadDataCell = row.insertCell(3);
+        const dateCell = row.insertCell(4);
+        const prognosImagesCell = row.insertCell(5);
+
+        // Sätter cellinnehåll baserat på loadData
+        if(data.loadData == 1){
+          loadDataCell.textContent = "true"
+        }
+
+        if(data.loadData != 1){
+          loadDataCell.textContent = "false"
+        }
+
+        // Sätter cellinnehåll för övriga celler
+        cityCell.textContent = data.city;
+        tempCell.textContent = data.temp;
+        weekDayCell.textContent = data.weekDay;
+        dateCell.textContent = data.date;
+        prognosImagesCell.textContent = data.prognosImages;
+      }
+  </script>
+</body>
+</html>
