@@ -44,7 +44,7 @@
       "abi": "armeabi-v7a",
       "artifactName": "weather",
       "output": "/Users/
-
+```
 
 
 3.	Därefter är du redo att köra applikationen.
