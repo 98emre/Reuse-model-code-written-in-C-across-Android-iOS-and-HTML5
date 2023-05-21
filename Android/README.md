@@ -1,5 +1,5 @@
 
-## Kom igång manual för att köra Android applikation som använder C eller C++ med hjälp av JNI.
+## Kom igång manual för att köra Android applikation som använder C eller C++
 
 **OBS!!** Först så måste du ladda ner projektet från GitHub innan du börjar.
 
