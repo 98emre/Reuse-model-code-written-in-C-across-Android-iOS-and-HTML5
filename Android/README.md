@@ -3,7 +3,7 @@
 
 **OBS!!** Först så måste du ladda ner projektet från GitHub innan du börjar.
 
-1. Efter när du har öppnat Android Studio med den projektet. Så kommer man få ett felmeddelande. Klicka på OK. Den klagar att den kan inte SDK. Men vi låter den ändra till den som finns tillgängligt på Android Studio. Bilden nedan visar hur felmeddelandet ser ut.
+1. Efter när du har öppnat Android Studio med den projektet. Så kommer man få ett felmeddelande. Klicka på OK. Den klagar att den kan inte hitta SDK. Men vi låter den ändra till den som finns tillgängligt på Android Studio. Bilden nedan visar hur felmeddelandet ser ut.
 
 2. Därefter provkör applikationen. Du bör få felmeddelande om build [CXX1409]. Det beror på att Android hittar inte självaste projektmappen och biblioteken på build gradle filen. Man måste lägga till korrekt path så att den kan hitta på projektet. Samt du måste ändra på `buildFiles`, `cleanCommandsComponents`, `buildTargetsCommandComponents`, `libraries` och `toolchains` för att det ska fungera. Detta gäller för filerna på `android_gradle_build.json` specifikt `arm16-v8a` och `armeabi-v7a`. 
 
