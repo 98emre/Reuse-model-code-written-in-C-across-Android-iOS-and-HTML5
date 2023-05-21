@@ -8,3 +8,11 @@ Krav: Microsoft Visual Studio Code och VS Code Extension Live Server av Ritwick 
 2. Efter installationen går du tillbaka till projektmappen och klickar på HTML5-filen. För att starta Live Server klickar du på knappen "Go Live" som finns längst ner till höger i Visual Studio Code.
 <img width="454" alt="bild" src="https://github.com/shch99/KTHExamensarbete2023/assets/131250228/793342d0-bbdd-48a3-9b84-9ddb8c7b3753">
 </br>3. Därefter är du redo att köra applikationen.
+
+
+</br>För utvecklare som vill forsätta utveckla vidare med projektet
+Krav: Emscripten, VS Code
+
+
+
+
