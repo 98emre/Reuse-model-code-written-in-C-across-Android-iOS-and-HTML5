@@ -26,3 +26,6 @@ Krav: Microsoft Visual Studio Code och VS Code Extension Live Server av Ritwick 
 
 4. Kompilera C-koden till WebAssembly med följande kommando:emcc Abstract.c Model.c -o Model.js -s EXPORTED_RUNTIME_METHODS='["ccall", "cwrap"]'
 
+5. Efter kompileringen kommer två filer att skapas. Den första filen innehåller ren WASM-kod och den andra filen innehåller JS-Glue-koden. Glue-koden möjliggör anrop till metoder i JavaScript från C via WASM.
+
+6. Följ instruktionerna i föregående dokumentationen hur man startar HTML5-applikationen.
