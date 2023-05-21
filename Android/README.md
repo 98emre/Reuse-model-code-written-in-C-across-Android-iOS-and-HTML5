@@ -3,7 +3,7 @@
 
 **OBS!!** Först så måste du ladda ner projektet från GitHub innan du börjar.
 
-1. När du öppnar projektet med Android Studio första gången så kommer man få ett felmeddelande. Klicka på OK. Android Studio klagar att den kan inte hitta SDK. Men vi låter Android Studio ändra till den som finns tillgängligt på sin lokal dator. Bilden nedan visar hur felmeddelandet ser ut.
+1. När du öppnar projektet med Android Studio första gången så kommer man få ett felmeddelande. Klicka på OK. Android Studio klagar att den kan inte hitta SDK. Men vi låter Android Studio ändra till den som finns tillgängligt på sin lokala dator. Bilden nedan visar hur felmeddelandet ser ut.
 
 <img width="441" alt="bild" src="https://github.com/shch99/KTHExamensarbete2023/assets/131250228/c57e9bb1-c370-4c9f-b20e-c8a29122bb76">
 
