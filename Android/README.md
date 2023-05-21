@@ -1,7 +1,7 @@
 
 ## Kom igång manual för att köra Android applikation som använder modellkod skriven i C.
 
-**OBS!!** Först måste du ladda ner projektet från GitHub innan du börjar.
+**OBS!!** Först måste du ladda ner projektet från GitHub innan du börjar. Detta här gäller när man ska köra projektet på Android Studio första gången.
 
 1. När du öppnar projektet med Android Studio första gången så kommer man få ett felmeddelande. Klicka på OK. Android Studio klagar att den kan inte hitta SDK. Men vi låter Android Studio ändra till den SDK som finns tillgängligt på sin lokala dator. Bilden nedan visar hur felmeddelandet ser ut.
 
@@ -46,3 +46,5 @@
       "output": "/Users/
 
 
+
+3.	Därefter är du redo att köra applikationen.
