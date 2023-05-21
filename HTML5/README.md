@@ -14,7 +14,7 @@ Krav: Microsoft Visual Studio Code och VS Code Extension Live Server av Ritwick 
 </br>Krav: Emscripten, VS Code
 
 
-### Installation av Emscripten Compiler
+### Installation av Emscripten Compiler(emsdk)
 
 1. Följ den officiella dokumentationen för att installera Emscripten-compilern om du inte redan har den installerad: [Länk till Emscripten-dokumentation](https://emscripten.org/docs/getting_started/downloads.html)
 
