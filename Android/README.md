@@ -1,5 +1,5 @@
 
-## Kom igång manual för att köra Android applikation som använder modellkod skriven i C eller C++
+## Kom igång manual för att köra Android applikation som använder modellkod skriven i C.
 
 **OBS!!** Först så måste du ladda ner projektet från GitHub innan du börjar.
 
