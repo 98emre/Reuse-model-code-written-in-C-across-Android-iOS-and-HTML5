@@ -10,7 +10,7 @@ Krav: Microsoft Visual Studio Code och VS Code Extension Live Server av Ritwick 
 </br>3. Därefter är du redo att köra applikationen.
 
 
-## För utvecklare som vill forsätta utveckla vidare med projektet
+## För utvecklare som vill forsätta vidareutveckla koden
 </br>Krav: Emscripten, VS Code
 
 
