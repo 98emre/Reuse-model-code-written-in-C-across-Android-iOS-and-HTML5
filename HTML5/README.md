@@ -10,9 +10,19 @@ Krav: Microsoft Visual Studio Code och VS Code Extension Live Server av Ritwick 
 </br>3. Därefter är du redo att köra applikationen.
 
 
-</br>För utvecklare som vill forsätta utveckla vidare med projektet
-Krav: Emscripten, VS Code
+## För utvecklare som vill forsätta utveckla vidare med projektet
+</br>Krav: Emscripten, VS Code
 
 
+### Installation av Emscripten Compiler
 
+1. Följ den officiella dokumentationen för att installera Emscripten-compilern om du inte redan har den installerad: [Länk till Emscripten-dokumentation](https://emscripten.org/docs/getting_started/downloads.html)
+
+### Kompilera C-kod till WebAssembly
+
+2. Öppna terminalen och navigera till projektmappen.
+
+3. När du har hittat mappen i terminalen, verifiera att `emsdk` är aktiverat genom att köra kommandot `emcc -v`.
+
+4. Kompilera C-koden till WebAssembly med följande kommando:emcc Abstract.c Model.c -o Model.js -s EXPORTED_RUNTIME_METHODS='["ccall", "cwrap"]'
 
