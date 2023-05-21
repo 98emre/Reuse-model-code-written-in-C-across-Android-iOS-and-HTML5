@@ -1,4 +1,4 @@
-## KOM IGÅNG MED HTML5 APPLIKATION MED MODELLKOD SKRIVEN I C
+## Kom igång med HTML5 applikation som har modellkod skriven i programspråket C.
 
 Krav: Microsoft Visual Studio Code och VS Code Extension Live Server av Ritwick Dey.
 
