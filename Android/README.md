@@ -47,4 +47,4 @@
 ```
 
 
-3.	Därefter är du redo att köra applikationen.
+3.	Därefter ska man kunna köra applikationen med run-knappen på Android Studio.
