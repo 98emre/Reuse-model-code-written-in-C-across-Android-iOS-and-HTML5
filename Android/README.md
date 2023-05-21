@@ -48,3 +48,7 @@
 
 
 3.	Därefter ska man kunna köra applikationen med run-knappen på Android Studio.
+
+<img width="1428" alt="Skärmavbild 2023-05-21 kl  08 58 18" src="https://github.com/shch99/KTHExamensarbete2023/assets/131250228/9dad2b61-6517-42ac-85e5-fdceaedb22c2">
+
+
