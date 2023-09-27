@@ -6,6 +6,6 @@ Medans resten av applikationer kan köras direkt utan några problem.
 
 
 ## Author
-Emre Demirel @98emre
+Emre Demirel [@98emre](https://github.com/98emre)
 
-Shifat Chowdhury @shch99
+Shifat Chowdhury [@shch99](https://github.com/98emre)
