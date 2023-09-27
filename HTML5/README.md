@@ -1,4 +1,4 @@
-## Kom igång med HTML5 applikation som har modellkod skriven i programspråket C.
+# Kom igång med HTML5 applikation som har modellkod skriven i programspråket C.
 
 Krav: Microsoft Visual Studio Code och VS Code Extension Live Server av Ritwick Dey.
 
@@ -29,3 +29,8 @@ Krav: Microsoft Visual Studio Code och VS Code Extension Live Server av Ritwick 
 5. Efter kompileringen kommer två filer att skapas. Den första filen innehåller ren WASM-kod och den andra filen innehåller JS-Glue-koden. Glue-koden möjliggör anrop till metoder i JavaScript från C via WASM.
 
 6. Följ instruktionerna i föregående dokumentationen hur man startar HTML5-applikationen.
+
+## Author
+Emre Demirel [@98emre](https://github.com/98emre)
+
+Shifat Chowdhury [@shch99](https://github.com/98emre)
